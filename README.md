@@ -20,6 +20,12 @@
 
 ## Steps to run
 1. Clone the repo
-2. `nvm use`
-3. `yarn`
-4. `yarn dev`
+2. Create a `.env.local` file and paste the contents as below these steps
+3. `nvm use`
+4. `yarn`
+5. `yarn dev`
+
+`.env.local` file
+```
+VITE_API_URL=https://pokeapi.co/api/v2
+```
